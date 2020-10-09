@@ -1,0 +1,12 @@
+[package]
+name = "jwt-generator"
+version = "0.1.0"
+authors = ["KinoMassaki <rogerio.kino@fatec.sp.gov.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = {version = "1.0.115", features = ["derive"]}
+jsonwebtoken = "7"
+yaml-rust = "0.4.4"
